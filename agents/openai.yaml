@@ -1,0 +1,4 @@
+interface:
+  display_name: "Goal Architect"
+  short_description: "把模糊想法整理成完整的 agent 目标"
+  default_prompt: "用 $goal-architect 帮我把一个粗略想法整理成适合 agent 长时间执行的完整目标，要求先说明规划结果，再补充验证方式、范围边界、非目标、风险触发条件和可读的 /goal 指令。"
