@@ -197,6 +197,22 @@ Goal Architect 只负责设计目标，不自动执行目标本身。
 
 <br>
 
+## English Summary
+
+Goal Architect is an agent skill that turns vague requests into clear, verifiable, and longer-running execution goals.
+
+It helps Codex, Claude Code, OpenClaw, and other agents understand the expected outcome, evidence, boundaries, non-goals, runtime estimate, retry strategy, completion criteria, and pause conditions before starting the work.
+
+It is especially useful for project repair, research synthesis, document polishing, automation setup, and overnight task planning.
+
+Install:
+
+```bash
+git clone https://github.com/qianhe-ai/goal-architect.git ~/.codex/skills/goal-architect
+```
+
+<br>
+
 ## 证书
 
 License：MIT License，详见 `LICENSE`。
